@@ -42,7 +42,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   /*border: 1px solid red;
   margin-right: auto;
   margin-left: auto;*/
@@ -73,7 +74,7 @@ body * {
 
 /*switch*/
 
-#switch{
+#switch {
   position: relative;
   width: 64px;
 
@@ -94,17 +95,17 @@ body * {
   transform: translateY(-50%);
 }
 
-.light #switch button{
+.light #switch button {
   right: 0;
   left: initial;
 }
 
 #switch span {
   display: block;
-    width: 64px;
+  width: 64px;
   height: 24px;
-    background: var(--surface-color);
-   border: 1px solid var(--stroke-color);
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
